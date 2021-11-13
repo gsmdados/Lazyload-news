@@ -1,0 +1,163 @@
+/*
+Theme Name: Veja
+Theme URI: https://veja.com
+Author: Guilherme Sousa
+Author URI: https://github.com/gsmdados
+Description: Tema
+Version: 1.0
+License: Copyright
+*/
+
+body{
+	color: #333;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+
+body, ul, li, h1, h2, h3, h4, h5, h6{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+h1{
+	font-size: 33px;
+}
+
+.text-right{
+	text-align: right;
+}
+
+.header{
+	height: 70px;
+	background: #081A7D;
+}
+
+.header .logo img{
+	width: 90px;
+	height: auto;
+	margin-top: 14px;
+}
+
+.header .menu{
+	float: right;
+}
+
+.header .menu ul{
+	overflow: hidden;
+	width: 100%;
+	display: block;
+	margin-top: 25px;
+}
+
+.header .menu ul li{
+	float: left;
+	margin-left: 23px;
+}
+
+.header .menu ul li a{
+	color: #C2C7DF;
+	font-size: 14px;
+}
+
+.header .menu ul li a:hover{
+	text-decoration: underline;
+}
+
+.header .menu ul li:first-child{
+	margin-left: 0;
+}
+
+.page-content{
+	margin-top: 40px;
+}
+
+.page-content .page-title{
+	margin-bottom: 23px;
+}
+
+.page-content .page-title h1{
+	color: #081A7D;
+}
+
+.news ul li{
+	margin-bottom: 20px;
+}
+
+.news ul li a{
+	display: block;
+}
+
+.news .thumb img{
+	max-width: 100%;
+	height: auto;
+}
+
+.news ul li .categories span{
+	color: #081A7D;
+	font-weight: bold;
+}
+
+.news ul li .title h2{
+	color: #333333;
+	transition: 300ms;
+}
+
+.news ul li a:hover .title h2{
+	color: #081A7D;
+}
+
+.news ul li .date span{
+	color: #333333;
+}
+
+.news .load-more{
+	margin-top: 22px;
+}
+
+.news .load-more button{
+	display: block;
+	margin: auto;
+	padding: 14px 32px;
+	border: 0;
+	background: #081A7D;
+	color: #fff;
+	transition: 300ms;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+.news .load-more button:hover{
+	background: #0d2297;
+}
+
+.ads{
+	width: 300px;
+	height: 300px;
+	margin-bottom: 20px;
+	background: #EEEEEE;
+}
+
+.footer{
+	background: #333333;
+	margin-top: 30px;
+	padding: 14px 0;
+}
+
+body.loading .footer{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
+.footer .copyright{
+	color: #CCCCCC;
+}
+
+.footer .copyright a{
+	color: #fff;
+}
