@@ -3,4 +3,4 @@
 ##### Para instalar crie uma pasta chamada "veja", no caminho "wp-content/themes" do seu projeto Wordpress. Posteriormente, vá até o painel administrativo e na página de temas, instale o tema com o título Veja.
 ##### Acesse o seu site em Wordpress e pronto :)
 
-#### Autor: eu, gsm.dados@gmail.com / Linkedin: https://www.linkedin.com/in/gsmdados
+#### Autor: eu, gsm.dados@gmail.com / Linkedin: https://www.linkedin.com/in/gsmdesenvolvimento/
